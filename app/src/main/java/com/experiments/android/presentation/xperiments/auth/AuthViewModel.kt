@@ -1,10 +1,10 @@
-package com.xpense.android.presentation.xperiments.auth
+package com.experiments.android.presentation.xperiments.auth
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.map
 import androidx.preference.PreferenceManager
-import com.xpense.android.R
+import com.experiments.android.R
 
 class AuthViewModel : ViewModel() {
 

@@ -1,4 +1,4 @@
-package com.xpense.android.presentation.xperiments.auth
+package com.experiments.android.presentation.xperiments.auth
 
 import androidx.lifecycle.LiveData
 import com.google.firebase.auth.FirebaseAuth

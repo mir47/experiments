@@ -1,11 +1,11 @@
-package com.xpense.android.presentation.xperiments.auth
+package com.experiments.android.presentation.xperiments.auth
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceFragmentCompat
-import com.xpense.android.R
+import com.experiments.android.R
 import timber.log.Timber
 
 class SettingsFragment : PreferenceFragmentCompat() {
