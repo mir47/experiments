@@ -7,10 +7,10 @@
 
         <variable
             name="txn"
-            type="com.xpense.android.domain.model.Txn" />
+            type="com.experiments.android.domain.model.Txn" />
 
         <variable
-            name="clickListener" type="com.xpense.android.presentation.txn.legacy.list.TxnListener"/>
+            name="clickListener" type="com.experiments.android.presentation.txn.legacy.list.TxnListener"/>
 
     </data>
 

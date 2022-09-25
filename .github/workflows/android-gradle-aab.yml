@@ -39,7 +39,7 @@ jobs:
     - name: Load Firebase config file from secrets
       env:
         GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
-      run: echo $GOOGLE_SERVICES_JSON > /home/runner/work/xpense/xpense/app/google-services.json
+      run: echo $GOOGLE_SERVICES_JSON > /home/runner/work/experiments/experiments/app/google-services.json
 
 #    - name: Build with Gradle
 #      run: ./gradlew build
@@ -90,7 +90,7 @@ jobs:
       uses: r0adkll/upload-google-play@v1
       with:
         serviceAccountJson: service-account-2.json
-        packageName: com.xpense.android
+        packageName: com.experiments.android
         releaseFiles: app/build/outputs/bundle/release/app-release.aab
         track: internal
         status: completed

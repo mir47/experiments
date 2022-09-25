@@ -10,6 +10,6 @@
         android:icon="@drawable/ic_launcher_foreground">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="xpense://xpense.com/transaction" />
+            android:data="experiments://experiments.com/transaction" />
     </shortcut>
 </shortcuts>

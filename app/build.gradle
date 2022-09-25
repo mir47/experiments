@@ -19,11 +19,11 @@ String getMapsApiKey() {
 }
 
 android {
-    namespace 'com.mir.experiments.android'
+    namespace 'com.experiments.android'
     compileSdkVersion rootProject.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.mir.experiments.android"
+        applicationId "com.experiments.android"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 51

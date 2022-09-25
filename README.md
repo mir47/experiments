@@ -1,4 +1,4 @@
-# Xpense
+# Experiments
 
 This app is intended for experiments.
 
