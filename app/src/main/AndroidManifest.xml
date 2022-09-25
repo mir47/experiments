@@ -12,10 +12,10 @@
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".XpenseApplication"
+        android:name=".ExperimentsApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Xpense">
+        android:theme="@style/Theme.Experiments">
         <activity
             android:name=".presentation.MainActivity"
             android:exported="true">

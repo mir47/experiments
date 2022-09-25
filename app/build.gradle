@@ -19,11 +19,11 @@ String getMapsApiKey() {
 }
 
 android {
-    namespace 'com.xpense.android'
+    namespace 'com.experiments.android'
     compileSdkVersion rootProject.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.xpense.android"
+        applicationId "com.experiments.android"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 51
